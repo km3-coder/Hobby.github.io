@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  background: linear-gradient(#fff 100%, #080808 0%);
+}
+html {
+  scroll-behavior: smooth;
+}
+.a {
+  color: black;
+  border-style: solid;
+  padding: 16px;
+  transition-duration: 0.2s;
+  font-family: "Yusei Magic", sans-serif;
+  margin: 10px;
+  position: absolute;
+}
+.a:hover {
+  color: white;
+  border-width: 0px;
+  border-color: #00ff001c;
+  background-color: black;
+  padding: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.image {
+  border-radius: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 700px;
+  width: 500px;
+}
+h3 {
+  font-family: "Yusei Magic", sans-serif;
+}
+h2 {
+  font-family: "Yusei Magic", sans-serif;
+}
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 500px;
+  padding: 10px;
+  border-radius: 120px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+.line {
+  width: 180px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  left: 379px;
+  margin-bottom: 10px;
+}
+p {
+  font-family: "Yusei Magic", sans-serif;
+  margin: 10px;
+  padding-top: 10px;
+}
+.bird {
+  width: 300px;
+  height: 170px;
+  border-radius: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+}
+#simple {
+  display: flex;
+  flex-direction: row;
+}
+#ultra {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.active {
+  background-color: #4caf50;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  font-family: "Poppins", sans-serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+#nav {
+  position: fixed;
+  width: 100%;
+}
